@@ -1,5 +1,5 @@
 import 'package:rxdart/rxdart.dart' show Observable;
-import 'package:http/http.dart';
+import 'package:http/http.dart' show Response, Client;
 
 abstract class RxHTTPDataSource {
   final Client client;
